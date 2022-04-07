@@ -1,0 +1,15 @@
+/*
+Crear una función que pida el ingreso de un entero y lo retorne.
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+
+
+
+	return EXIT_SUCCESS;
+}

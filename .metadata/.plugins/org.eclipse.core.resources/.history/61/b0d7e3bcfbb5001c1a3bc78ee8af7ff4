@@ -1,0 +1,25 @@
+/*
+Ejercicio 4-1:
+Realizar un programa EN EL MAIN que permita calcular y mostrar el factorial de un número.
+Por ejemplo:
+5! = 5*4*3*2*1 = 120
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int calcularFactorial (int numero){
+	int resultado;
+
+	resultado = numero * calcularFactorial(numero-1);
+
+	return resultado;
+}

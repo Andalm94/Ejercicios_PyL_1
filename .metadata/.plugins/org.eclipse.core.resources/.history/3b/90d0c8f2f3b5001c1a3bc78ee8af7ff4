@@ -1,0 +1,35 @@
+/*
+Realizar un programa en donde se puedan utilizar los prototipos de la función Sumar en sus 4 combinaciones.
+int Sumar1(int, int);
+int Sumar2(void);
+void Sumar3(int, int);
+void Sumar4(void);
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int Sumar1(int numero1, int numero2);
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+
+
+	return EXIT_SUCCESS;
+}
+
+int Sumar1(int numero1, int numero2){
+	int resultado;
+	resultado = numero1+numero2;
+
+	return resultado;
+}
+int Sumar2(){
+	int numero1;
+	int numero2;
+	int resultado;
+
+
+
+	return resultado;
+}

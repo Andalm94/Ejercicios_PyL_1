@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdin, NULL);
+	float sueldo;
+	float sueldoConAumento;
+
+	printf("Por favor ingrese su sueldo.\n");
+	scanf("%f", &sueldo);
+
+	sueldoConAumento = sueldo * 1.1;
+
+	printf("Su sueldo con aumento es %f", sueldoConAumento);
+}
