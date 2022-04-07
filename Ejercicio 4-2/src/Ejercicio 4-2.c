@@ -9,8 +9,8 @@ Las funciones de transformación de fahrenheit a celsius y de celsius a fahrenhei
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "Biblioteca.h"
 
-int getFloat(char mensaje[], float min, float max, float * numero);
 
 int main(void) {
 	setbuf(stdout, NULL);
@@ -49,17 +49,3 @@ int main(void) {
 	return EXIT_SUCCESS;
 }
 
-int getFloat(char mensaje[], float min, float max, float * numero){
-	int succes;
-	int auxiliar;
-	succes = -1;
-
-	do{
-		printf(mensaje);
-		scanf("%d", &auxiliar);
-	}while(auxiliar<min || auxiliar>max);
-
-	*numero = auxiliar;
-	succes = 0;
-	return succes;
-}
