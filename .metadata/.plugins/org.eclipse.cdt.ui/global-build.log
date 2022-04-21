@@ -1,5 +1,23 @@
-19:23:19 **** Incremental Build of configuration Debug for project Ejercicio 4-2 ****
+08:43:51 **** Incremental Build of configuration Debug for project Ejercicio 5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Biblioteca.o" "..\\src\\Biblioteca.c" 
-gcc -o "Ejercicio 4-2.exe" "src\\Biblioteca.o" "src\\Ejercicio 4-2.o" 
-Info: Nothing to build for Ejercicio 4-2
+gcc -o "Ejercicio 5-3.exe" "src\\Ejercicio 5-3.o" "src\\IngresoDeDatos.o" "src\\ManejoArrays.o" 
+Info: Nothing to build for Ejercicio 5-3
+08:45:39 **** Incremental Build of configuration Debug for project Ejercicio 5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 5-3.o" "..\\src\\Ejercicio 5-3.c" 
+..\src\Ejercicio 5-3.c: In function 'main':
+..\src\Ejercicio 5-3.c:68:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   68 |  printf("El promedio de positivos es %d:  ", promedioPositivos);
+      |                                      ~^      ~~~~~~~~~~~~~~~~~
+      |                                       |      |
+      |                                       int    double
+      |                                      %f
+gcc -o "Ejercicio 5-3.exe" "src\\Ejercicio 5-3.o" "src\\IngresoDeDatos.o" "src\\ManejoArrays.o" 
+08:46:32 **** Incremental Build of configuration Debug for project Ejercicio 5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 5-3.o" "..\\src\\Ejercicio 5-3.c" 
+gcc -o "Ejercicio 5-3.exe" "src\\Ejercicio 5-3.o" "src\\IngresoDeDatos.o" "src\\ManejoArrays.o" 
+08:47:01 **** Incremental Build of configuration Debug for project Ejercicio 5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio 5-3.o" "..\\src\\Ejercicio 5-3.c" 
+gcc -o "Ejercicio 5-3.exe" "src\\Ejercicio 5-3.o" "src\\IngresoDeDatos.o" "src\\ManejoArrays.o" 

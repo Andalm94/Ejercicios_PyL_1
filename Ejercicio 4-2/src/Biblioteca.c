@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int getFloat(char mensaje[], float min, float max, float * numero){
 	int succes;
 	int auxiliar;
@@ -15,4 +16,3 @@ int getFloat(char mensaje[], float min, float max, float * numero){
 	succes = 0;
 	return succes;
 }
-
